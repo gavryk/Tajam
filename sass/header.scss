@@ -1,0 +1,59 @@
+header {
+  height: 100vh;
+  background: url(../img/bg-fon.png),
+  url(../img/first-bg.jpg) no-repeat  center / cover;
+  padding-top: 15px;
+  .hat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      a {
+        display: flex;
+        align-items: center;
+        font-weight: 100;
+        font-size: 35px;
+        color: #01ded0;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+      }
+      img {
+        margin-right: 10px;
+      }
+    }
+    .menu {
+      nav {
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        align-items: center;
+        a {
+          text-decoration: none;
+          font-weight: 900;
+          color: white;
+          margin-left: 25px;
+          &:hover {
+            color: #01ded0;
+          }
+        }
+      }
+    }
+  }
+  .header-title {
+    text-align: center;
+    margin: 170px auto;
+    color: white;
+    hr {
+      margin: 30px auto;
+    }
+    p {
+      width: 70%;
+      line-height: 1.5em;
+      margin: 0 auto 70px auto;
+    }
+  }
+}
