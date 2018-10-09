@@ -1,3 +1,36 @@
+@media(max-width: 768px) {
+  header {
+    .hat {
+      .menu {
+        nav {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          background: rgba(19, 19, 19, 0.46);
+          width: 200%;
+          top: 35px;
+          right: 5%;
+          transform: translateX(-116%);
+          transition: 1s ease-out;
+          a {
+            margin: 10px auto;
+          }
+        }
+        .menu_active {
+          transform: translateX(0%);
+          transition: 1s ease-out;
+        }
+        .burger {
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 10%;
+        }
+      }
+    }
+  }
+}
+
 @media(max-width: 976px) {
   header {
     .hat {
