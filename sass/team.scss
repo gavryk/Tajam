@@ -1,0 +1,53 @@
+#team {
+  padding: 70px 0;
+  background: url(../img/bg-fon.png),
+  url(../img/woods-bg.jpg) no-repeat center / cover;
+  .team-title {
+    color: #fff;
+    text-align: center;
+    p {
+      margin: 20px 0;
+    }
+  }
+  .team_photo {
+    .teammate {
+      width: 230px;
+      height: 300px;
+      border-radius: 10px;
+      cursor: pointer;
+      &:hover {
+        ~ .name {
+          transition: 1s ease-out;
+          transform: rotateX(0) translateY(0);
+        }
+      }
+    }
+    .sem {
+      background: url(../img/team1.jpg) no-repeat center / cover;
+    }
+    .dik {
+      background: url(../img/team2.jpg) no-repeat center / cover;
+    }
+    .jenk {
+      background: url(../img/team3.jpg) no-repeat center / cover;
+    }
+    .pet {
+      background: url(../img/team4.jpg) no-repeat center / cover;
+    }
+  }
+  .name {
+    color: #fff;
+    text-align: center;
+    width: 230px;
+    line-height: 1.5;
+    transition: 1s ease-out;
+    transform: rotateX(90deg) translateY(-100%);
+  }
+  .button {
+    text-align: center;
+    p {
+      margin: 50px 0;
+      color: #fff;
+    }
+  }
+}

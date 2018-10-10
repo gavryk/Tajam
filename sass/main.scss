@@ -2,6 +2,10 @@
 @import "fonts.scss";
 @import "mobile.scss";
 @import "about.scss";
+@import "justBg.scss";
+@import "expertise.scss";
+@import "team.scss";
+@import "portfolio.scss";
 
 * {
   padding: 0;
@@ -42,8 +46,12 @@ p {
   padding: 15px 25px;
   border-radius: 3px;
   font-size: 16px;
+  display: inline-block;
   &:hover {
     color: white;
     background: #01ded0;
   }
+}
+hr {
+  margin: 30px auto;
 }

@@ -29,6 +29,13 @@
       }
     }
   }
+  #about {
+    .about {
+      img {
+        display: none;
+      }
+    }
+  }
 }
 
 @media(max-width: 976px) {
@@ -37,6 +44,20 @@
       .menu {
         font-size: 16px;
         margin: 0;
+      }
+    }
+  }
+  #expertise {
+    .expertise-item {
+      .item {
+        margin: auto;
+      }
+    }
+  }
+  #team {
+    .team_photo {
+      .teammate {
+        margin: 20px auto;
       }
     }
   }
