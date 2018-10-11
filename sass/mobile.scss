@@ -1,3 +1,13 @@
+@media(max-width: 568px) {
+  #contacts {
+    .contact {
+      .partners {
+        display: none;
+      }
+    }
+  }
+}
+
 @media(max-width: 768px) {
   header {
     .hat {
@@ -58,6 +68,19 @@
     .team_photo {
       .teammate {
         margin: 20px auto;
+      }
+    }
+  }
+  #contacts {
+    .contact {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      .partners {
+        .contact-item {
+          display: flex;
+          justify-content: center;
+        }
       }
     }
   }

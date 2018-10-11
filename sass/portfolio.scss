@@ -5,7 +5,7 @@
   .slider {
     display: flex;
     overflow: hidden;
-    margin-top: 50px;
+    margin: 50px 0;
     align-items: center;
     i {
       font-size: 54px;
@@ -13,10 +13,12 @@
     #left {
       position: absolute;
       left: 150px;
+      cursor: pointer;
     }
     #right {
       position: absolute;
       right: 150px;
+      cursor: pointer;
     }
     .polosa {
       display: flex;
