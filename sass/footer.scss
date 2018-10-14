@@ -1,0 +1,131 @@
+footer {
+  padding: 70px 0;
+  background: url(../img/bg-fon.png),
+  url(../img/foot-bg.jpg) no-repeat center / cover;
+  .footer_logo {
+    a {
+      display: flex;
+      align-items: center;
+      font-weight: 100;
+      font-size: 30px;
+      color: #01ded0;
+      text-decoration: none;
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+  p {
+    color: lightgrey;
+    font-size: 14px;
+    margin-top: 30px;
+    line-height: 1.5em;
+  }
+  h2 {
+    color: #fff;
+  }
+  .studio {
+    p {
+      margin-left: 20px;
+      margin-top: 0;
+    }
+  }
+  .phonenumber,
+  .address {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .connect {
+    input[type="email"] {
+      width: 210px;
+      background: border-box;
+      border: 1px solid #e5e5e5;
+      margin: 15px 15px 25px 0;
+      padding: 15px 20px;
+    }
+    input[type="submit"] {
+      font-family: 'Hammersmith One', sans-serif;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #01ded0;
+      border: 1px solid #01ded0;
+      padding: 15px 25px;
+      border-radius: 3px;
+      font-size: 16px;
+      background: none;
+      &:hover {
+        color: white;
+        background: #01ded0;
+        cursor: pointer;
+      }
+    }
+    .social {
+      display: flex;
+      .icon {
+        width: 35px;
+        height: 35px;
+        border: 1px solid #e5e5e5;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+        cursor: pointer;
+      }
+      .fb {
+        &:hover {
+          border: none;
+          background: #205b9f;
+          box-shadow: 0 0 10px 5px #205b9f;
+        }
+      }
+      .tw {
+        &:hover {
+          border: none;
+          background: #00ace3;
+          box-shadow: 0 0 10px 5px #00ace3;
+        }
+      }
+      .dribbble {
+        &:hover {
+          border: none;
+          background: #ff72a5;
+          box-shadow: 0 0 10px 5px #ff72a5;
+        }
+      }
+      .google,
+      .youtube {
+        &:hover {
+          border: none;
+          background: #ff3921;
+          box-shadow: 0 0 10px 5px #ff3921;
+        }
+      }
+      .insta {
+        &:hover {
+          border: none;
+          background: #9710cc;
+          box-shadow: 0 0 10px 5px #9710cc;
+        }
+      }
+    }
+  }
+  .footer-copyright {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    .help {
+      a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: lightgrey;
+        margin-right: 40px;
+        &:hover {
+          color: #01ded0;
+        }
+      }
+    }
+  }
+}

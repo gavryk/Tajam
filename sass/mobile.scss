@@ -1,0 +1,87 @@
+@media(max-width: 568px) {
+  #contacts {
+    .contact {
+      .partners {
+        display: none;
+      }
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  header {
+    .hat {
+      .menu {
+        nav {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          background: rgba(19, 19, 19, 0.46);
+          width: 200%;
+          top: 35px;
+          right: 5%;
+          transform: translateX(-116%);
+          transition: 1s ease-out;
+          a {
+            margin: 10px auto;
+          }
+        }
+        .menu_active {
+          transform: translateX(0%);
+          transition: 1s ease-out;
+        }
+        .burger {
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 10%;
+        }
+      }
+    }
+  }
+  #about {
+    .about {
+      img {
+        display: none;
+      }
+    }
+  }
+}
+
+@media(max-width: 976px) {
+  header {
+    .hat {
+      .menu {
+        font-size: 16px;
+        margin: 0;
+      }
+    }
+  }
+  #expertise {
+    .expertise-item {
+      .item {
+        margin: auto;
+      }
+    }
+  }
+  #team {
+    .team_photo {
+      .teammate {
+        margin: 20px auto;
+      }
+    }
+  }
+  #contacts {
+    .contact {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      .partners {
+        .contact-item {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

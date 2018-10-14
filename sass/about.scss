@@ -1,0 +1,19 @@
+#about {
+  padding: 70px 0;
+  .about {
+    display: flex;
+    justify-content: space-around;
+    h2 {
+      color: #413d4b;
+    }
+    p {
+      font-size: 14px;
+      line-height: 1.5em;
+      margin: 20px 0 30px 0;
+      color: #716e78;
+    }
+    .about-text {
+      width: 550px;
+    }
+  }
+}

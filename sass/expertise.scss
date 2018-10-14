@@ -1,0 +1,30 @@
+#expertise {
+  padding: 70px 0;
+  .expertise-title {
+    text-align: center;
+    color: #413d4b;
+    p {
+      margin: 15px 0 20px 0;
+    }
+  }
+  .expertise-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .item {
+      width: 315px;
+      text-align: center;
+      font-size: 14px;
+      color: #413d4b;
+      padding: 35px 0;
+      h3 {
+        margin-bottom: 27px;
+        margin-top: 35px;
+      }
+      p {
+        letter-spacing: 2px;
+        line-height: 1.4em;
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+#portfolio {
+  padding: 70px 0;
+  text-align: center;
+  display: flex;
+  .slider {
+    display: flex;
+    overflow: hidden;
+    margin: 50px 0;
+    align-items: center;
+    i {
+      font-size: 54px;
+    }
+    #left {
+      position: absolute;
+      left: 150px;
+      cursor: pointer;
+    }
+    #right {
+      position: absolute;
+      right: 150px;
+      cursor: pointer;
+    }
+    .polosa {
+      display: flex;
+      position: relative;
+      left: 0;
+      right: 0;
+      transition: all ease 1s;
+      .slide {
+        width: 1110px;
+        height: 500px;
+      }
+      .slide1 {
+        background: url(../img/portfolio1.jpg) no-repeat center / cover;
+      }
+      .slide2 {
+        background: url(../img/portfolio2.jpg) no-repeat center / cover;
+      }
+      .slide3 {
+        background: url(../img/portfolio3.jpg) no-repeat center / cover;
+      }
+      .slide4 {
+        background: url(../img/portfolio4.jpg) no-repeat center / cover;
+      }
+      .slide5 {
+        background: url(../img/portfolio5.jpg) no-repeat center / cover;
+      }
+      .slide6 {
+        background: url(../img/portfolio6.jpg) no-repeat center / cover;
+      }
+      .slide7 {
+        background: url(../img/portfolio7.jpg) no-repeat center / cover;
+      }
+      .slide8 {
+        background: url(../img/portfolio8.jpg) no-repeat center / cover;
+      }
+      .slide9 {
+        background: url(../img/portfolio9.jpg) no-repeat center / cover;
+      }
+      .slide10 {
+        background: url(../img/portfolio10.jpg) no-repeat center / cover;
+      }
+      .slide11 {
+        background: url(../img/portfolio11.jpg) no-repeat center / cover;
+      }
+      .slide12 {
+        background: url(../img/portfolio12.jpg) no-repeat center / cover;
+      }
+    }
+  }
+}
